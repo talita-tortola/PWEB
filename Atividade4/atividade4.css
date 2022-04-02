@@ -1,0 +1,88 @@
+body {
+    background: #e96e6e url(Fundo.jpg);
+    background-repeat: no-repeat;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+    sans-serif;
+    line-height: 1.5;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+  
+article {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-color: #CCC #999 #999 #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+  
+article h2 {
+    border-bottom: 1px dashed #8b0e0e;
+    margin: 0;
+}
+
+article p {
+    text-align: justify;
+}
+  
+article img {
+    border: 1px solid #8b0e0e;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 160px;
+    height: 220px;
+}
+  
+article a {
+    color: #991515;
+    font-weight: bold;
+}
+  
+header h1 a {
+    color: #ce2222;
+    text-decoration: none;
+    margin-left:250px;
+}
+  
+header h1 a:hover { 
+    background-color: #ce2222;
+    color: #FFF;
+}
+  
+.clear { 
+    clear: both;
+}
+  
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+  
+section { 
+    float: left;
+    width: 660px;
+}
+  
+aside {
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    padding: 10px;
+    float: right;
+    width: 260px;
+}
+  
+aside h3 {
+    font-size: 14px;
+    margin-top: 0;
+    text-align: justify;
+}
+  
+aside ol {
+    font-size: 12px;
+}
