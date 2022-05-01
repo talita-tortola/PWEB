@@ -10,4 +10,5 @@
 ###### Atividade3: https://racasuniversotolkieniano.netlify.app
 ###### Atividade4: https://suibianhub.netlify.app
 ###### Atividade5: https://dailynienews.netlify.app
+###### Atividade6: https://atividade6.netlify.app
 ###### AtividadeExtra: https://atividadeextra.netlify.app
