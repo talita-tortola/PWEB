@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Média</title>
+</head>
+<body>
+
+    <div id="tudo">
+        <h1>Cálculo de Média</h1>
+
+        <script>
+            var nome;
+
+            nome = prompt("Digite o nome da(o) aluna(o):");
+
+            var decisao;
+
+            decisao = confirm("Seu nome está correto, " + nome + "?");
+
+            if(decisao){
+                alert("Nome confirmado.");
+            }else{
+                nome = prompt("Digite o nome correto: ");
+            }
+
+
+            var n1, n2, n3, media;
+
+            n1 = parseFloat(prompt("Digite a primeira nota:"));
+            n2 = parseFloat(prompt("Digite a segunda nota:"));
+            n3 = parseFloat(prompt("Digite a terceira nota:"));
+
+            media = (n1 + n2 + n3) / 3;
+
+            alert("A média final é: " + media.toFixed(2));
+
+        </script>
+
+        <div id="bloco">
+            <div id="opcao">
+                <a href="index.html"><p>Voltar</p></a>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
