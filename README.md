@@ -11,4 +11,5 @@
 ###### Atividade4: https://suibianhub.netlify.app
 ###### Atividade5: https://dailynienews.netlify.app
 ###### Atividade6: https://atividade6.netlify.app
+###### Atividade7: https://jokenpo7.netlify.app
 ###### AtividadeExtra: https://atividadeextra.netlify.app
