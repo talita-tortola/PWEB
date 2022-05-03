@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Jo Ken Po</title>
+</head>
+<body>
+
+    <div id="tudo">
+
+        <p id="titulo"><strong>JO KEN PO</strong> <em>!!</em></p>
+
+        <script>
+
+            var escolha, pc, opcao, escolhapc, jogar;
+
+            do{
+                alert("Bem-vinde ao jogo JO KEN PO!\nO famigerado 'Pedra, papel ou tesoura'!");
+                alert("Se liga nas regras do jogo: \n\n- O jogo tem 3 opções: pedra, papel ou tesoura (obviamente);\n- Elementos iguais dá empate;\n- Pedra vence Tesoura;\n- Papel vence Pedra;\n- Tesoura vence Papel.\n\nFunciona assim: você escolhe uma das opções (pedra, papel ou tesoura), e o computador escolhe outra, aleatoreamente. Vence quem escolher a melhor opção.");
+                opcao = confirm("Entendeu as regras? Bora jogar?");
+            }while(opcao == false);
+
+            escolha = prompt("Valendo!\n\nEscolha uma das opções abaixo:\n\n1 - Pedra\n2 - Papel\n3 - Tesoura");
+
+            pc = Math.floor(Math.random() * 10);
+
+            if(pc <= 3){
+                escolhapc = 1;
+                alert("O PC escolheu Pedra!");
+            }else if(pc <= 6){
+                escolhapc = 2;
+                alert("O PC escolheu Papel!");
+            }else{
+                escolhapc = 3;
+                alert("O PC escolheu Tesoura!");
+            }
+
+            if(escolha == 1 && escolhapc == 1){
+                alert("Você e o PC escolheram Pedra!\n\nEmpate!!");
+            }else if(escolha == 1 && escolhapc == 2){
+                alert("Você escolheu Pedra!\nO PC escolheu Papel!\n\nO vencedor é........ PC!!");
+            }else if(escolha == 1 && escolhapc == 3){
+                alert("Você escolheu Pedra!\nO PC escolheu Tesoura!\n\nO vencedor é........ VOCÊ!!");
+            }else if(escolha == 2 && escolhapc == 1){
+                alert("Você escolheu Papel!\nO PC escolheu Pedra!\n\nO vencedor é........ VOCÊ!!");
+            }else if(escolha == 2 && escolhapc == 2){
+                alert("Você e o PC escolheram Papel!\n\nEmpate!!");
+            }else if(escolha == 2 && escolhapc == 3){
+                alert("Você escolheu Papel!\nO PC escolheu Tesoura!\n\nO vencedor é........ PC!!");
+            }else if(escolha == 3 && escolhapc == 1){
+                alert("Você escolheu Tesoura!\nO PC escolheu Pedra!\n\nO vencedor é........ PC!!");
+            }else if(escolha == 3 && escolhapc == 2){
+                alert("Você escolheu Tesoura!\nO PC escolheu Papel!\n\nO vencedor é........ VOCÊ!!");
+            }else{
+                alert("Você e o PC escolheram Tesoura!\n\nEmpate!!");
+            }
+
+            jogar = confirm("Bora jogar de novo?!");
+
+            if(jogar == true){
+                location.reload();
+            }
+
+        </script>
+
+    </div>
+
+    <footer>
+        <p><strong>Atividade 7 - JS - 2022</strong></p>
+    </footer>
+
+</body>
+</html>

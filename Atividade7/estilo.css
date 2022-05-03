@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+#titulo{
+    font-size: 300%;
+    text-align: center;
+}
+
+#tudo{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: #FFF;
+    width: 99%;
+    height: 50px;    
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 0.1cm;
+}
