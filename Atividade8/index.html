@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+        <script src="script.js"></script>
+        <title>Pesquisa de Opinião</title>
+    </head>
+    <body>  
+
+        <div>
+            <h1 id="titulo">Pesquisa de Opinião</h1>
+            <p id="subtitulo">Opine sobre Doutor Estranho no Multiverso da Loucura!</p>
+            <br>
+        </div>
+
+        <form>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="idade"><strong>Idade</strong></label>
+                    <input type="number" name="idade" id="idade" required>
+                </div>
+            </fieldset> 
+
+            <div class="campo">
+                <label for="genero"><strong>Qual é seu gênero?</strong></label>
+                <label>
+                    <input type="radio" id="F" name="genero" value="F">Feminino
+                </label>
+                <label>
+                    <input type="radio" id="M" name="genero" value="M">Masculino
+                </label>
+            </div>
+
+            <div class="campo">
+                <br>
+                <label for="opiniao"><strong>O que achou do filme? </strong></label>
+                <label>
+                    <input type="radio" id="op4" name="opiniao" value="op4">Ótimo, adorei!
+                </label>
+                <label>
+                    <input type="radio" id="op3" name="opiniao" value="op3">Bom, mas faltou algumas coisas.
+                </label>
+                <label>
+                    <input type="radio" id="op2" name="opiniao" value="op2">Regular, achei bem mais ou menos.
+                </label>
+                <label>
+                    <input type="radio" id="op1" name="opiniao" value="op1">Péssimo, muito ruim, odiei!
+                </label>
+            </div>
+<br><br>
+            <div class="campo">
+                <button class="botao" onclick="addOp()">Adicionar Opinião</button><br>
+                <button class="botao" onclick="resultado()">Exibir Resultados</button>      
+            </div>
+
+
+            <div>
+                <p id="contador">Opiniões recebidas: 0/45.</p>
+                <br>
+                <section>
+                    <div class="resultado">
+                        <h1 id="h1"></h1>
+                        <p id="res"></p>
+                    </div>
+                </section>
+            </div>
+
+        </form>
+
+
+    </body>
+
+</html>
