@@ -12,4 +12,5 @@
 ###### Atividade5: https://dailynienews.netlify.app
 ###### Atividade6: https://atividade6.netlify.app
 ###### Atividade7: https://jokenpo7.netlify.app
+###### Atividade8: https://pesquisadrestranho.netlify.app
 ###### AtividadeExtra: https://atividadeextra.netlify.app
