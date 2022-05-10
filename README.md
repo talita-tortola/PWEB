@@ -14,4 +14,5 @@
 ###### Atividade7: https://jokenpo7.netlify.app
 ###### Atividade8: https://pesquisadrestranho.netlify.app
 ###### Atividade9: https://atividade9js.netlify.app/
+###### Atividade10: https://objetojsatv10.netlify.app
 ###### AtividadeExtra: https://atividadeextra.netlify.app
