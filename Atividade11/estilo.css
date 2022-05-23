@@ -1,0 +1,83 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+#titulo{
+    color: rgb(245, 61, 76);;
+}
+
+#subtitulo, #ex1, #ex2{
+    color: white;
+}
+
+h1, footer{
+    background-color: rgb(165, 7, 20);
+    color: black
+}
+
+#titulo{
+    font-size: 25px;
+}
+
+#subtitulo{
+    font-size: 15px;
+}
+
+button{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(165, 7, 20);
+    background: rgb(245, 61, 76);
+    color: #000000;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    width: 80px;
+    height: 20px;
+    align-items: center;
+}
+
+button:hover {
+    background: rgb(247, 135, 135);
+    color:white;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+button, select{
+    cursor: pointer;
+}
+
+footer{
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+input[type=number], input[type=text], input[type=date]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(245, 61, 76);
+    color: #d18c8c;
+    width: 250px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+input[type=number]:focus, input[type=text]:focus, input[type=date]:focus{
+    outline: none;
+    border: 1px solid #d18c8c;
+    color: rgb(165, 7, 20);
+}
+
+input[type=number]:disabled, input[type=text]:disabled, input[type=date]:disabled{
+    background-color: rgba(226, 135, 135, 0.37);
+    outline: none;
+    border: 1px solid #4d1010;
+    color: rgb(56, 2, 7);
+}

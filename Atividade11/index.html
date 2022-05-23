@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="scriptex1.js"></script>
+    <script src="scriptex2.js"></script>
+    <title>Atividade 11</title>
+</head>
+<body>
+    
+    <h1>Atividade 11</h1><br/>
+
+    <p id="titulo">
+        <strong>Exercício 1</strong>
+    </p>
+    <p id="subtitulo">
+        Nesse exercício será criada uma função construtora para o
+        objeto Retângulo receber como parâmetros a base e a altura,
+        para seja calculada a área dele.
+    </p><br/>
+
+    <p id="ex1">
+        Digite a base e a altura:<br/><br/>
+        <label for="base">
+            Base
+        </label><br>
+        <input type="number" name="base" id="base" required><br/>
+        <label for="altura">
+            Altura
+        </label><br>
+        <input type="number" name="altura" id="altura" required><br/>
+        <label for="area">
+                Área
+            </label><br>
+            <input type="number" name="area" id="area" disabled><br/><br>
+        <button class="botao" onclick="Ret()">Calcular</button><br>
+        <button class="botao" onclick="limpar()">Limpar</button><br>
+    </p><br>
+
+    <p id="titulo">
+        <strong>Exercício 2</strong>
+    </p>
+    <p id="subtitulo">
+        Nesse exercício será criada uma função tipo Conta e implementado
+        duas funções utilizando o conceito de herança. A partir disso, 
+        será criado um objeto de cada: Corrente e Poupança. 
+    </p><br/>
+
+    <p id="ex2">
+        <strong>Conta Corrente:</strong><br/><br/>
+        <label for="nome">
+            Nome
+        </label><br>
+        <input type="text" name="nome1" id="nome1" required><br/>
+        <label for="banco">
+            Banco
+        </label><br>
+        <input type="text" name="banco1" id="banco1" required><br/>
+        <label for="numConta">
+            Número da Conta
+        </label><br>
+        <input type="number" name="numConta1" id="numConta1" required><br/>
+        <label for="saldo">
+            Saldo
+        </label><br>
+        <input type="number" name="saldo1" id="saldo1" required><br/>
+        <label for="saldoEsp">
+            Saldo Especial
+        </label><br>
+        <input type="number" name="saldoEsp1" id="saldoEsp1" required><br/><br>
+
+        <button class="botao" onclick="CriaCorrente()">Criar</button><br/>
+        <button class="botao" onclick="ExibeContaCorrente()">Exibir</button><br>
+        <button class="botao" onclick="limparConta()">Limpar</button><br><br/><br/>
+
+        <strong>Criar Conta Poupança:</strong><br/><br/>
+        <label for="nome">
+            Nome
+        </label><br>
+        <input type="text" name="nome2" id="nome2" required><br/>
+        <label for="banco">
+            Banco
+        </label><br>
+        <input type="text" name="banco2" id="banco2" required><br/>
+        <label for="numConta">
+            Número da Conta
+        </label><br>
+        <input type="number" name="numConta2" id="numConta2" required><br/>
+        <label for="saldo">
+            Saldo
+        </label><br>
+        <input type="number" name="saldo2" id="saldo2" required><br/>
+        <label for="juros">
+            Juros
+        </label><br>
+        <input type="number" name="juros1" id="juros1" required><br/>
+        <label for="dataVenc">
+            Data Vencimento
+        </label><br>
+        <input type="date" name="dataVenc1" id="dataVenc1" required><br/><br>
+
+        <button class="botao" onclick="CriaPoupanca()">Criar</button><br>
+        <button class="botao" onclick="ExibeContaPoupanca()">Exibir</button><br>
+        <button class="botao" onclick="limparConta()">Limpar</button><br><br/><br/>
+
+        <strong>Exibição dos Objetos Criados:</strong><br/><br/>
+        <label for="nome">
+                Nome
+            </label><br>
+            <input type="text" name="nome3" id="nome3" disabled><br/>
+            <label for="banco">
+                Banco
+            </label><br>
+            <input type="text" name="banco3" id="banco3" disabled><br/>
+            <label for="numConta">
+                Número da Conta
+            </label><br>
+            <input type="number" name="numConta3" id="numConta3" disabled><br/>
+            <label for="saldo">
+                Saldo
+            </label><br>
+            <input type="number" name="saldo3" id="saldo3" disabled><br/>
+            <label for="juros">
+                Juros
+            </label><br>
+            <input type="number" name="juros2" id="juros2" disabled><br/>
+            <label for="dataVenc">
+                Data Vencimento
+            </label><br>
+            <input type="date" name="dataVenc2" id="dataVenc2" disabled><br/>
+            <label for="saldoEsp">
+                Saldo Especial
+            </label><br>
+            <input type="number" name="saldoEsp2" id="saldoEsp2" disabled><br/><br>
+
+        </p><br>
+
+    <footer>
+            <strong>Atividade 11 - JavaScript - 2022</strong>
+    </footer>
+
+</body>
+</html>
