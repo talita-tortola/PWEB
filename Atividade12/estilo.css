@@ -1,0 +1,22 @@
+#janela{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color: #a33e4f;
+}
+
+#texto,header{
+    color: #55151f;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+}
+
+a{
+    color: #7a0819;
+}

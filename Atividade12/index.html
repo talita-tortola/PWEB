@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script></script>
+	<link rel="stylesheet" href="estilo.css">
+	<title>Janelinha</title>
+</head>
+<body>
+
+	<header>
+		Atividade 12 • Eventos com JavaScript • 2022<br>
+		Feito por: <a href="https://github.com/talita-tortola">Talita</a>
+	</header>
+
+	<div id="janela">
+		<p id="texto">
+			Abra a janela!
+		</p>
+
+		<a href="#" onmouseover="document.images[0].src='aberta.jpg';document.getElementById('texto').innerHTML = 'Feche a janela!';" onmouseout="document.images[0].src='fechada.jpg';document.getElementById('texto').innerHTML = 'Abra a janela!';" onclick="document.images[0].src='quebrada.jpg';document.getElementById('texto').innerHTML = 'Ah, quebrou!';">
+			<img src="fechada.jpg" width="250">
+		</a>
+	</div>
+
+</body>
+</html>
