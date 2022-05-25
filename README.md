@@ -16,4 +16,5 @@
 ###### Atividade9: https://atividade9js.netlify.app/
 ###### Atividade10: https://objetojsatv10.netlify.app
 ###### Atividade11: https://atv11-functions-e-heranca.netlify.app/
+###### Atividade12: https://janelinha.netlify.app
 ###### AtividadeExtra: https://atividadeextra.netlify.app
