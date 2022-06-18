@@ -10,9 +10,10 @@
 
 #### Para representar o tema escolhido foi utilizado a paleta de cores do jogo, uma fonte similiar à do jogo, o cursor personalizado idêntico, e também várias imagens internas do The Sims.
 
-#### Paleta de Cores e Fonte: (imagem)
+#### Paleta de Cores e Fonte:
+![alt text](https://github.com/talita-tortola/PWEB/blob/main/Portfolio/Imagens/paletadecoresefonte.png)
 
-#### Protótipo feito no Figma: (link)
+#### Protótipo feito no Figma: [Clique aqui](https://www.figma.com/file/2SpbFDoqSu8RczXqyhz0T6/Portfolio---The-Sims-4?node-id=0%3A1)
 
 #### Linguagens utilizadas: HTML, CSS e JavaScript.
 
@@ -24,4 +25,4 @@
 
 #### Hospedagem: Netlify.
 
-#### Resultado do Portfólio, carinhosamente apelidado de The SimsFólio: (link)
+#### Resultado do Portfólio, carinhosamente apelidado de The SimsFólio: [The SimsFólio](https://thesimsfolio.netlify.app/index.html)
